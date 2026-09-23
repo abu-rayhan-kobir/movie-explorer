@@ -3,6 +3,8 @@ import App from "../App";
 import Movies from "../pages/Movies";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
+import Details from "../pages/Details";
+
 
 
 const routes = [
@@ -17,6 +19,10 @@ const routes = [
       {
         path: "movies",
         element: <Movies />,
+      },
+      {
+        path: "movies/:id",
+        element: <Details />,
       },
       {
         path: "*",
