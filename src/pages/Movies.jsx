@@ -13,6 +13,7 @@ export default function Movies () {
   
   return (
     <div className="w-full p-4 bg-black">
+      <h1 className="font-bold text-xl md:text-2xl text-white container mx-auto py-2">All Movies:</h1>
       {/* Main container */}
       <div className="h-screen overflow-y-auto container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {/* Card container */}
