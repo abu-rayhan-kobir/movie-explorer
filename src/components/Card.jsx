@@ -15,7 +15,7 @@ export default function Card({ movie }) {
           />
         </figure>
       </div>
-      <div className="border flex flex-col gap-2 bg-white rounded-md p-2">
+      <div className="border flex flex-col gap-2 bg-gray-100 rounded-md p-2">
         <div className="flex items-center justify-between">
           <h1 className="font-bold">{movie?.name}</h1>
           <div className="flex flex-col-reverse items-center">

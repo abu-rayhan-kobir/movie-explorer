@@ -16,7 +16,7 @@ export default function Details() {
   return (
     <div className="min-h-screen flex justify-center items-center bg-black p-4">
       {/* Main container */}
-      <div className="w-full border border-white flex flex-col rounded-md p-1 gap-1 md:flex-row max-w-2xl">
+      <div className="w-full border border-white flex flex-col rounded-md p-1 gap-1 md:flex-row max-w-7xl shadow-sm shadow-gray-300">
         <div className="md: flex-1">
           {/* Left side */}
           {/* Top */}
@@ -28,7 +28,7 @@ export default function Details() {
           />
         </figure>
         </div>
-        <div className="bg-white border rounded-md p-1 flex flex-col gap-2 md:flex-2">
+        <div className="bg-gray-100 border rounded-md p-1 flex flex-col gap-2 md:flex-2">
           {/* Right side */}
           {/* Bottom */}
           <div className="flex flex-col gap-1">
