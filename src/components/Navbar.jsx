@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router";
 
 export default function Navbar() {
   return (
-    <div className="bg-black">
+    <div className="bg-black px-4 fixed top-0 left-0 w-full z-50">
       {/* Main container */}
       <div className="container mx-auto border border-white p-2 rounded-md flex items-center justify-between">
         <Link

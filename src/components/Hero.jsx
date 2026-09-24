@@ -3,7 +3,7 @@ import hero from "../assets/hero.png";
 import { Link } from "react-router";
 export default function Hero() {
   return (
-    <section className="bg-black">
+    <section className="bg-black pt-5">
       <div className="container mx-auto">
         <div className="relative">
           <figure className="aspect-video">

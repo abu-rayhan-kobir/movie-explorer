@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export default function Card({ movie }) {
   return (
-    <div className="border border-white flex flex-col gap-2 rounded-md bg-black shadow-sm shadow-gray-500 hover:shadow-gray-100 p-1">
+    <div className="border border-white flex flex-col gap-2 rounded-md bg-black shadow-sm shadow-gray-500 hover:shadow-gray-100 p-1 h-fit">
       <div>
         <figure className="aspect-square">
           <img

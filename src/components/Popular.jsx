@@ -11,7 +11,7 @@ export default function Popular() {
     })();
   }, []);
   return (
-    <div className="w-full py-4 bg-black">
+    <div className="w-full pt-5 bg-black">
       {/* Main container */}
       <h1 className="text-white container mx-auto font-bold text-xl md:text-2xl py-2">Popular movies:</h1>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
